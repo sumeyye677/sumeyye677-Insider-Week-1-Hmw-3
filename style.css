@@ -1,4 +1,3 @@
-/* Reset ve Genel Stiller */
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +10,6 @@ body {
     color: #1a1a1a;
     line-height: 1.6;
     min-height: 100vh;
-
 }
 
 header {
@@ -52,14 +50,12 @@ h1 {
     z-index: 1;
 }
 
-/* Ana Konteyner */
 main {
     max-width: 1400px;
     margin: 0 auto;
     padding: 80px 20px;
 }
 
-/* Grid Düzeni - Gelişmiş Teknik */
 .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -110,7 +106,6 @@ main {
     opacity: 1;
 }
 
-/* Resim Alanı */
 .product-image {
     position: relative;
     height: 280px;
@@ -214,7 +209,6 @@ main {
     min-height: 60px;
 }
 
-/* Buton Stilleri - Interaktif Efektler */
 .add-to-cart-btn {
     background: linear-gradient(45deg, #667eea, #764ba2);
     color: white;
@@ -272,7 +266,6 @@ main {
     box-shadow: none;
 }
 
-/* Footer */
 footer {
     background: #111;
     padding: 40px 20px;
@@ -286,7 +279,6 @@ footer p {
     font-size: 0.9rem;
 }
 
-/* Responsive Tasarım - Media Queries */
 @media (min-width: 1600px) {
     .product-grid {
         grid-template-columns: repeat(4, 1fr);
@@ -316,7 +308,6 @@ footer p {
     }
 }
 
-/* Dikey Tabletler/Büyük Telefonlar için (max-width: 768px) */
 @media (max-width: 768px) {
     .product-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -362,7 +353,6 @@ footer p {
     }
 }
 
-/* Mobil Telefonlar için (max-width: 480px) */
 @media (max-width: 480px) {
     .product-grid {
         grid-template-columns: 1fr;
@@ -418,11 +408,6 @@ footer p {
         font-size: 0.7rem;
     }
 }
-
-
-
-
-/* Çok Küçük Ekranlar için (max-width: 320px) */
 @media (max-width: 320px) {
     .product-grid {
         gap: 15px;
@@ -478,7 +463,7 @@ footer p {
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(5px);
     transition: all 0.3s ease;
-    padding: 8px 18px; /* daha kompakt */
+    padding: 8px 18px;
     font-size: 0.9rem;
 }
 
@@ -486,10 +471,6 @@ footer p {
     background: rgba(255, 255, 255, 0.4);
     color: #1a1a1a;
 }
-
-
-
-
 
 .header-top {
     display: flex;
@@ -507,7 +488,7 @@ footer p {
 }
 
 .logo-area img {
-    height: 40px; /* logonuzun boyutu */
+    height: 40px; 
 }
 
 .brand-name {
